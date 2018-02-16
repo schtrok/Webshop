@@ -1,0 +1,231 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrap {
+	width: 1600px;
+	height: 900px;
+	margin: auto;
+	background-color: lightgray;
+	margin-top: 5px;
+}
+nav {
+	width: 1598px;
+	height: 80px;
+	border: 1px solid black;
+}
+#title {
+	width: 400px;
+	height: 60px;
+	font-size: 3em;
+	position: relative;
+	top: 10px;
+	left: 40px;
+}
+#search {
+	width: 400px;
+	position: relative;
+	top: -52px;
+	left: 680px;
+	height: 60px;
+}
+#search_input {
+	height: 56px;
+	width: 330px;
+	font-size: 1.5em;
+	padding-left: 5px;
+}
+#search_submit {
+	margin: 0px;
+	padding:0px;
+	height: 60px;
+	width: 60px;
+	position: relative;
+	top: -60px;
+	left: 335px;
+	background-image: url("images/srch.jpg")
+
+}
+#kosarica {
+	border: 1px solid black;
+	height: 60px;
+	width: 60px;
+	position: relative;
+	top: -112px;
+	left: 1500px;
+	background-image: url("images/rsz_cart.png")
+}
+#kosarica:hover {
+	border: 1px solid blue;
+}
+#left {
+	width:320px;
+	height: 820px;
+	/*background-color: red;*/
+	float: left;
+}
+#middle {
+	width:1160px;
+	height: 820px;
+	background-color:white;
+	float: left;
+	overflow: scroll;
+}
+#right {
+	width:120px;
+	height: 820px;
+	/*background-color: green;*/
+	float: left;
+}
+#footer {
+	clear: both;
+	width: 1600px;
+	height: 60px;
+	background-color: darkgray;
+	position: relative;
+	top: -2px;
+}
+#kategorije{
+	background-color:lightgray;
+	width: 320px;
+	height: 400px;
+}
+#cijene_sort {
+	width: 320px;
+	height: 320px;
+	background-color:lightgray;
+}
+h2 {
+	font-size: 2em;
+	padding: 5px 20px;
+}
+ul {
+	background-color:lightgray;
+	list-style-type: none;
+}
+li {
+	display: block;
+}
+ul li a {
+	text-decoration: none;
+	color: black;
+	background-color: lightgray;
+	display: block;	
+	width: 298px;
+	height: 40px;
+	font-size: 1.5em;
+	position: relative;
+	padding: 0px 0px 0px 20px;
+	line-height: 40px;
+	border: 1px solid black;
+}
+ul li a:hover {
+	background-color:darkgray;
+}
+#cijena_search_tekst {
+	position: relative;
+	left: 10px;
+	font-size: 1.5em;
+}
+.cijena_search {
+	position: relative;
+	width: 240px;
+	height: 30px;
+	font-size: 1.5em;
+	padding: 3px;
+	margin: 2px 0px;
+	left: 10px;
+}
+#cijena_search_submit {
+	width: 60px;
+	height: 60px;
+	position: relative;
+	left: 240px;
+	background-image: url("images/srch.jpg");
+}
+.article {
+	width: 371px;
+	height: 300px;
+	border: 2px solid lightblue;
+	margin: 3px;
+	float: left;
+}
+.article:hover {
+  border: 2px solid darkblue;
+}
+.article_img {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	left: 100px;
+	top: -30px;
+}
+.article_description {
+	font-size: 1.5em;
+	margin: 2px 5px;
+	display: block;
+}
+.article_price {
+	font-size: 1.5em;
+	margin: 2px 5px;
+	display: block;
+}
+.article_tocart {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	bottom: -27px;
+	right: -115px;
+	background-image: url("images/article_cart.png");
+}
+.article_tocart:hover {
+	background-color: lightgray;
+}
+.article_amount {
+	position: relative;
+	height: 30px;
+	width: 220px;
+	top: -10px;
+	left: 60px;
+	line-height: 40px;
+	font-size: 1.5em;
+}
+.search_message {
+	font-size: 2em;
+	padding: 100px 200px;
+	position: relative;
+	left: 50px;
+}
+#back {
+	display: block;
+	height: 60px;
+	width: 60px;
+	position: relative;
+	top: -50px;
+	left: 1500px;
+	background-image: url("images/back.png");
+}
+table {
+	width: 100%;
+	font-size: 1.5em;
+	text-align: center;
+}
+th {
+  padding-bottom: 1em;
+	text-decoration:underline;
+}
+td {
+  padding-bottom: 0.5em;
+}
+tr:nth-child(even){
+	background-color: #f2f2f2
+}
+tfoot {
+	background-color: lightgray;
+}
+td button {
+	width: 60px;
+	color: white;
+	background-color: red;
+	top: 7px;
+}

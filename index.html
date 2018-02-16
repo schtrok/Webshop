@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Schtrok WebShop v1.0</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="jquery.js"></script>
+	<script src="jquery-color.js"></script>
+	<script src="script.js"></script>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<div id="wrap">
+		<nav>
+			<h1 id="title">WebShop</h1>
+			<div id="search">
+				<input type="text" id="search_input" placeholder="Pretraži artikle po imenu"></input>
+				<button id="search_submit"></button>
+			</div>
+			<a href="cart.html"><button id="kosarica"></button></a>
+		</nav>
+		<div id="left">
+			<div id="kategorije">
+				<h2>Kategorije:</h2>
+				<ul>
+					<li><a id="sve" href="#">Sve</a></li>
+					<li><a id="tekucine" href="#">Tekucine</a></li>
+					<li><a id="tankovi" href="#">Tankovi</a></li>
+					<li><a id="modovi" href="#">Modovi</a></li>
+					<li><a id="baterije" href="#">Baterije</a></li>
+					<li><a id="zice" href="#">Zice</a></li>
+				</ul>
+			</div>
+			<div id="cijene_sort">
+				<h2>Pretraži po cijeni:</h2>
+				<span id="cijena_search_tekst">Od:</span>
+				<input type="number" id="cijena_search_od" class="cijena_search"></input></br>
+				<span id="cijena_search_tekst">Do:</span>
+				<input type="number" id="cijena_search_do"class="cijena_search"></input>
+				<button id="cijena_search_submit"></button>
+			</div>
+		</div>
+		<div id="middle">
+		</div>
+		<div id="right">
+		</div>
+		<div id="footer"></div>
+	</div>
+</body>
+</html>

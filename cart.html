@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Schtrok WebShop</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="jquery.js"></script>
+	<script src="jquery-color.js"></script>
+	<script src="cart_script.js"></script>
+</head>
+<body>
+	<div id="wrap">
+		<nav>
+			<h1 id="title">Cart</h1>
+			<a href="index.html" id="back"></a>
+		</nav>
+		<div id="left">			
+		</div>
+		<div id="middle">
+			<table>
+				<tr>
+					<th>Naziv artikla</th>
+					<th>Pojedinacna cijena</th>
+					<th>Kolicina</th>
+					<th>Ukupno</th>
+					<th>Ukloni</th>					
+				</tr>
+				<tfoot>
+					<tr>
+						<td colspan=3>Ukupno: </td>
+						<td id="price_sum"></td>
+						<td><button>Isprazni košaricu</button></td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+		<div id="right">
+		</div>
+		<div id="footer"></div>
+	</div>
+</body>
+</html>
